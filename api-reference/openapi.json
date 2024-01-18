@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/program": {
+    "/program/program": {
       "get": {
         "description": "Returns Petter Program",
         "parameters": [
