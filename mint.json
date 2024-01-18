@@ -77,8 +77,8 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/programs",
-        "api-reference/endpoint/offers",
+        "api-reference/endpoint/programs/create",
+        "api-reference/endpoint/offers/get",
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
