@@ -129,7 +129,7 @@
         }
       }
     }, 
-    "/offers": {
+    "/offers/offers": {
       "get": {
         "description": "Gets offers for Program",
         "parameters": [
