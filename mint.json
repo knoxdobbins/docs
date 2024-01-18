@@ -82,6 +82,13 @@
       ]
     },
     {
+      "group": "Authentication",
+      "pages": [
+        "api-reference/endpoint/Authentication/create_card",
+        "api-reference/endpoint/Authentication/create_trans"
+      ]
+    },
+    {
       "group": "Offers",
       "pages": [
         "api-reference/endpoint/Offers/get"
