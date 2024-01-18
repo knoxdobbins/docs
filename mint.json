@@ -75,13 +75,16 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Programs",
       "pages": [
         "api-reference/endpoint/Programs/create",
-        "api-reference/endpoint/Offers/get",
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/Programs/get"
+      ]
+    },
+    {
+      "group": "Offers",
+      "pages": [
+        "api-reference/endpoint/Offers/get"
       ]
     }
   ],
