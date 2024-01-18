@@ -163,7 +163,7 @@
       }
     },
     "/auth/transactions/token": {
-      "get": {
+      "post": {
         "description": "Generate an Authentication Token to securely view transactions.",
         "parameters": [
           {
@@ -196,7 +196,7 @@
       }
     },
     "/auth/cardlinking/token": {
-      "get": {
+      "post": {
         "description": "Generate an Authentication Token to securely link a card.",
         "parameters": [
           {
