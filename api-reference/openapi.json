@@ -186,9 +186,10 @@
       }
     },
     "securitySchemes": {
-      "API-Key": {
-        "type": "http",
-        "scheme": "bearer"
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "API-Key"
       }
     }
   }
