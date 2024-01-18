@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "Petter API",
-    "description": "A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification",
+    "description": "Explore our Guides and API Reference to get the most out of Petter.",
     "license": {
       "name": "MIT"
     },
@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "http://api.getpetter.com"
     }
   ],
   "security": [
@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/program": {
       "get": {
         "description": "Returns Petter Program",
         "parameters": [
@@ -35,7 +35,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Plant response",
+            "description": "Program response",
             "content": {
               "application/json": {
                 "schema": {
@@ -60,9 +60,9 @@
         }
       },
       "post": {
-        "description": "Creates a new plant in the store",
+        "description": "Creates a new Program",
         "requestBody": {
-          "description": "Plant to add to the store",
+          "description": "Creates a new Program inside Petter",
           "content": {
             "application/json": {
               "schema": {
@@ -96,14 +96,14 @@
         }
       }
     },
-    "/plants/{id}": {
+    "/program/{id}": {
       "delete": {
-        "description": "Deletes a single plant based on the ID supplied",
+        "description": "Deletes a single Program based on the ID supplied",
         "parameters": [
           {
             "name": "id",
             "in": "path",
-            "description": "ID of plant to delete",
+            "description": "ID of Program to delete",
             "required": true,
             "schema": {
               "type": "integer",
@@ -113,7 +113,7 @@
         ],
         "responses": {
           "204": {
-            "description": "Plant deleted",
+            "description": "Program deleted",
             "content": {}
           },
           "400": {
