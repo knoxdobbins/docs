@@ -130,7 +130,7 @@
       }
     }, 
     "/generate_api_key": {
-      "delete": {
+      "post": {
         "description": "Deletes a single Program based on the ID supplied",
         "parameters": [
           {
