@@ -101,6 +101,12 @@
       "pages": [
         "api-reference/endpoint/Balances/get"
       ]
+    },
+    {
+      "group": "Transactions",
+      "pages": [
+        "api-reference/endpoint/Transactions/create"
+      ]
     }
   ],
   "footerSocials": {

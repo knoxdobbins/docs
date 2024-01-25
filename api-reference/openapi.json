@@ -317,6 +317,28 @@
           }
         }
       }
+    },
+    "/transaction": {
+      "post": {
+        "description": "Create a test transaction in your Sandbox environment",
+        "parameters": [],
+        "responses": {
+          "204": {
+            "description": "Transaction created",
+            "content": {}
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
