@@ -78,7 +78,8 @@
       "group": "Programs",
       "pages": [
         "api-reference/endpoint/Programs/create",
-        "api-reference/endpoint/Programs/get"
+        "api-reference/endpoint/Programs/get",
+        "api-reference/endpoint/Programs/create_api_keys"
       ]
     },
     {
