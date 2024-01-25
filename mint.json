@@ -95,6 +95,12 @@
       "pages": [
         "api-reference/endpoint/Offers/get"
       ]
+    },
+    {
+      "group": "Balances",
+      "pages": [
+        "api-reference/endpoint/Balances/get"
+      ]
     }
   ],
   "footerSocials": {
