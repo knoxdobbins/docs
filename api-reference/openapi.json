@@ -130,7 +130,7 @@
       }
     }, 
     "/generate_api_key": {
-      "delete": {
+      "post": {
         "description": "Generates new API Keys for a Program",
         "parameters": [
           {
