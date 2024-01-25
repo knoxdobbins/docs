@@ -147,7 +147,15 @@
         "responses": {
           "204": {
             "description": "",
-            "content": {"name": "hello"}
+            "content": {
+              "application/json": {
+                "schema":{
+                  "type":"object",
+                  "example": {
+                    "program": {}
+                  }
+                }
+              }
             }
           },
           "400": {
