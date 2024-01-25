@@ -105,8 +105,7 @@
             "description": "ID of Program to delete",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int64"
+              "type": "string"
             }
           }
         ],
