@@ -148,14 +148,7 @@
           "204": {
             "description": "",
             "content": {
-              "application/json": {
-                "schema":{
-                  "type":"object",
-                  "items": {
-                    "program": {}
-                  }
-                }
-              }
+              "program": {}
             }
           },
           "400": {
