@@ -150,9 +150,10 @@
             "content": {
               "application/json": {
                 "schema":{
-                  "type":"object",
-                  "$ref":{
-                    "program": {
+                  "type":"object"
+                }
+              },
+              "program": {
                       "api_keys": {
                         "created_at": "2024-01-25T20:07:18",
                         "is_active": true,
@@ -167,9 +168,6 @@
                       "program_id": "scnTqVLIiIe3lloz",
                       "updated_at": "2023-11-28T19:29:22"
                     }
-                  }
-                }
-              }
             }
           },
           "400": {
