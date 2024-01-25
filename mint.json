@@ -107,6 +107,13 @@
       "pages": [
         "api-reference/endpoint/Transactions/create"
       ]
+    },
+    {
+      "group": "Redemptinos",
+      "pages": [
+        "api-reference/endpoint/Redemptions/create",
+        "api-reference/endpoint/Redemptions/get"
+      ]
     }
   ],
   "footerSocials": {
