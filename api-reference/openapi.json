@@ -148,7 +148,9 @@
           "204": {
             "description": "",
             "content": {
-              "program": {}
+              "application/json": {
+                "program": {}
+              }
             }
           },
           "400": {
