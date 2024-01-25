@@ -145,25 +145,28 @@
           }
         ],
         "responses": {
-          "204": {
+          "200": {
             "description": "",
             "content": {
               "application/json": {
-                "schema": {
-                  "program": {
-                    "api_keys": {
-                      "created_at": "2024-01-25T20:07:18",
-                      "is_active": true,
-                      "pk_api_key": "c6129dcad3e821169971038f11c568ab",
+                "schema":{
+                  "type":"object",
+                  "items":{
+                    "program": {
+                      "api_keys": {
+                        "created_at": "2024-01-25T20:07:18",
+                        "is_active": true,
+                        "pk_api_key": "c6129dcad3e821169971038f11c568ab",
+                        "program_id": "scnTqVLIiIe3lloz",
+                        "sk_api_key": "b8bc8ccbacc320dc1b6a1039446f56f4"
+                      },
+                      "created_at": "2023-11-28T19:29:22",
+                      "email": "knox@fetch.com",
+                      "logo": "https://boxes.hellosubscription.com/wp-content/uploads/sites/2/2017/05/268462978_398022768735723_8537870983274816492_n.png",
+                      "name": "Fetch Test",
                       "program_id": "scnTqVLIiIe3lloz",
-                      "sk_api_key": "b8bc8ccbacc320dc1b6a1039446f56f4"
-                    },
-                    "created_at": "2023-11-28T19:29:22",
-                    "email": "knox@fetch.com",
-                    "logo": "https://boxes.hellosubscription.com/wp-content/uploads/sites/2/2017/05/268462978_398022768735723_8537870983274816492_n.png",
-                    "name": "Fetch Test",
-                    "program_id": "scnTqVLIiIe3lloz",
-                    "updated_at": "2023-11-28T19:29:22"
+                      "updated_at": "2023-11-28T19:29:22"
+                    }
                   }
                 }
               }
