@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/program": {
+    "/program/create": {
       "post": {
         "description": "Creates a new Program",
         "requestBody": {
