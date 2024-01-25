@@ -152,7 +152,9 @@
                 "schema":{
                   "type":"object",
                   "example": {
-                    "program": {}
+                    "program": {
+                      "name": "hello"
+                    }
                   }
                 }
               }
