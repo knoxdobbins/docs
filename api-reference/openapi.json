@@ -147,10 +147,7 @@
         "responses": {
           "204": {
             "description": "",
-            "content": {
-              "application/json": {
-                "program": {}
-              }
+            "content": {"name": "hello"}
             }
           },
           "400": {
