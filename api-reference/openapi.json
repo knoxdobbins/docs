@@ -20,44 +20,6 @@
   ],
   "paths": {
     "/program": {
-      "get": {
-        "description": "Returns Petter Program",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "ID of Program",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Program response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Plant"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      },
       "post": {
         "description": "Creates a new Program",
         "requestBody": {
@@ -96,6 +58,44 @@
       }
     },
     "/program/{id}": {
+      "get": {
+        "description": "Returns Petter Program",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of Program",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Program response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Plant"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
       "delete": {
         "description": "Deletes a single Program based on the ID supplied",
         "parameters": [
