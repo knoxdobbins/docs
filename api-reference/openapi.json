@@ -24,12 +24,11 @@
         "description": "Returns Petter Program",
         "parameters": [
           {
-            "name": "limit",
-            "in": "query",
-            "description": "The maximum number of results to return",
+            "name": "id",
+            "in": "path",
+            "description": "ID of Program",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
