@@ -251,6 +251,48 @@
         }
       }
     },
+    "/auth/token/verify": {
+      "get": {
+        "description": "Verify an Authentication Token",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Authentication Token to Verify",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Authentication Token verified",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type":"object",
+                  "example": {
+                      "token": "1f9226cf4a4b6b1b43b3140180ee34f4",
+                      "user_id": "knoxtest1"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/auth/cardlinking/token": {
       "post": {
         "description": "Generate an Authentication Token to securely link a card.",

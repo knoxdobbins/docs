@@ -86,7 +86,8 @@
       "group": "Authentication",
       "pages": [
         "api-reference/endpoint/Authentication/create_card",
-        "api-reference/endpoint/Authentication/create_trans"
+        "api-reference/endpoint/Authentication/create_trans",
+        "api-reference/endpoint/Authentication/verify_token"
       ]
     },
     {
