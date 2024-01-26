@@ -103,9 +103,16 @@
       ]
     },
     {
-      "group": "Redem",
+      "group": "Transactions",
       "pages": [
         "api-reference/endpoint/Transactions/create"
+      ]
+    }, 
+    {
+      "group": "Redemptions",
+      "pages": [
+        "api-reference/endpoint/Redemptions/create",
+        "api-reference/endpoint/Redemptions/get"
       ]
     }
   ],
