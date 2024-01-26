@@ -109,7 +109,7 @@
       ]
     },
     {
-      "group": "Redemptinos",
+      "group": "Redemptions",
       "pages": [
         "api-reference/endpoint/Redemptions/create",
         "api-reference/endpoint/Redemptions/get"
