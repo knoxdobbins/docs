@@ -345,7 +345,7 @@
         "description": "Create a redemption of an Account's available cash back balance",
         "parameters": [],
         "responses": {
-          "204": {
+          "200": {
             "description": "Transaction created",
             "content": {}
           },
